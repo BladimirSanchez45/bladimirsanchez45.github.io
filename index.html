@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Bladimir</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#certificados" onclick="seleccionar()">CERTIFICADOS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="class nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenedor-banner">
+            <div class="contenedor-img">
+                <img src="img/yo.png" alt="">
+            </div>
+            <h1>BLADIMIR SANCHEZ</h1>
+            <h2>Desarollador de Software - Machine Learning - Fullstack Developer</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/alberto-bladimir-s%C3%A1nchez-prado-0755901a6/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/BladimirSanchez45"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/bladimir_sanchez45/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.credly.com/users/alberto-bladimir-sanchez-prado/badges"><i class="fa-solid fa-star"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido">
+            <h2>Sobre Mí</h2>
+            <p><span>Hi, I am Bladimir Sánchez</span>I'm a Software Developer Engineer with 1 year of experience, 
+                passionate about full-stack development and Machine Learning, 
+                as well as looking to expand my skills and knowledge. I'm highly dedicated to my work, 
+                constantly seeking for opportunities to grow as a developer and as a teammate.</p>
+
+                <div class="fila">
+                    <!-- Datos Personales -->
+                    <div class="col">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                31-08-1999
+                            </li>
+                            <li>
+                                <strong>Telefono</strong>
+                                33 13 25 22 92
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                bladimir.sanchez3108@gmail.com
+                            </li>
+                            <li>
+                                <strong>Direccion</strong>
+                                Zapopan. Jalisco
+                            </li>
+                            
+                        </ul>
+                    </div>
+
+                    <!-- Intereses -->
+                    <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenedor-intereses">
+                            <div class="interes">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>JUEGOS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-headphones"></i>
+                                <span>MUSICA</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-plane"></i>
+                                <span>VIAJAR</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-book"></i>
+                                <span>LIBROS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-basketball"></i>
+                                <span>DEPORTES</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-car"></i>
+                                <span>AUTOS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button>
+                    Descargar CV <i class="fa-solid fa-cloud-arrow-down"></i>
+                    <span class="overlay"> </span>
+              </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+     <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Techniclal Skill -->
+                 <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bash</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- Professional Skills -->
+                 <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Managment</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Ingenieria En Desarrollo De Software</h4>
+                        <span class="casa">Universidad Tecmilenio</span>
+                        <span class="fecha">2020 - 2024</span>
+                        <p>GPA: 4.0</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Master en Inteligencia Artificial</h4>
+                        <span class="casa">Universidad Tecmilenio</span>
+                        <span class="fecha">2024 - 2025</span>
+                        <p>GPA: 4.0</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia de Trabajo</h3>
+                    <div class="item der">
+                        <h4>Data Scientist Jr.</h4>
+                        <span class="casa">DeepIA</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>
+                            I developed web scraping code to collect YouTube videos using the YouTube API, selecting those videos relevant to our model. I implemented automation with Selenium to download videos directly, optimizing the process.
+                            Subsequently, I obtained the necessary hyperparameters, such as the bounding boxes of the faces in the videos, to feed our data sets. I used tools like FFMPEG, PyTorch and Linux, taking advantage of the power of the GPU for greater efficiency.
+                            This approach not only improved data accessibility but also significantly optimized costs, saving the company about 33% a week on videos. However, thanks to this implementation, we achieved substantial savings.
+                            <b>Technologies used: Selenium, Pytorch, ffmpeg, Linux, OpenCV, NumPy, Pandas, Pytube, Os, CSV, MoviePy, Azure.</b>
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Mechanical Inventory</h4>
+                        <span class="casa">Freelance Work</span>
+                        <span class="fecha">2023 - 2023</span>
+                        <p>
+                            Developed a graphical inventory for a mechanical workshop in which the user can search items from a database on the AWS cloud as well as do CRUD operations within it.
+                            Frontend design was made with HTML, CSS so the client can have a visually appealing graphical user interface, some effects were inserted with JavaScript, and I added some widgets and images so it can be more friendly and easy to understand for the user.
+                            Developed a ChatGPT question box so the client can ask some questions about some mechanical failures, this was created with an Api Key that connects directly to python, adding a library called “OpenAI”, making an interface to have a chat box from a user to a generating response from an Artificial intelligence.
+                            <b>Technologies used: MySQL, AWS, Python, HTML, CSS, JavaScript, OpenAI, IA</b>
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4><a href="https://funerariacortes.com/" class="custom-link">Wordpress funeral parlor webpage <i class="fa-solid fa-circle-arrow-left"></i></a></h4> 
+                        <span class="casa">Freelance Work</span>
+                        <span class="fecha">2022 - 2022</span>
+                        <p>
+                            Developed a funeral parlor webpage named "Funeraria Cortes" with Wordpress, Elementor, and CSS, where the client can have a visually appealing webpage with a contact form, a map with the location of the funeral parlor, and a gallery with images of the services they offer.
+                            <b>Technologies used: Wordpress, Elementor, CSS, Google API</b>
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CERTIFICADOS -->
+     <section id="certificados" class="certificados">
+        <div class="contenido-seccion">
+            <h2>CERTIFICADOS</h2>
+            <div class="galeria">
+                <div class="certificado">
+                    <img src="img/certificados/bedu.png" alt="">
+                    <div class="overlay">
+                        <h3>Programacion Con Python</h3>
+                    </div>
+                </div>
+                <div class="certificado">
+                    <img src="img/certificados/ml.png" alt="">
+                    <div class="overlay">
+                        <h3>Introduccion a Machine Learning</h3>
+                    </div>
+                </div>
+                <div class="certificado">
+                    <img src="img/certificados/devops.png" alt="">
+                    <div class="overlay">
+                        <h3>Introduccion a DevOps</h3>
+                    </div>
+                </div>
+                <div class="certificado">
+                    <img src="img/certificados/calculo.png" alt="">
+                    <div class="overlay">
+                        <h3>Calculo Diferencial Para Data Science e Inteligencia Artificial</h3>
+                    </div>
+                </div>
+                <div class="certificado">
+                    <img src="img/certificados/html.png" alt="">
+                    <div class="overlay">
+                        <h3>HTML Desde Cero</h3>
+                    </div>
+                </div>
+                <div class="certificado">
+                    <img src="img/certificados/python.png" alt="">
+                    <div class="overlay">
+                        <h3>Python</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- SECCION CONTACTO -->
+      <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario de Contacto -->
+                 <div class="col">
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="text" placeholder="Numero Telefonico">
+                    <input type="text" placeholder="Correo Electronico">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                 </div>
+                 <!--Mapa-->
+                 <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Zapopan, Jalisco
+                            </li>
+                        </ul>
+                    </div>
+                 </div>
+            </div>
+        </div>
+      </section>
+
+      <script src="script.js"></script>
+</body>
+</html>
